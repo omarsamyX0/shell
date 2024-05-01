@@ -1,7 +1,6 @@
 @echo off
 python3 D:\sh.py
-cd /D D:\
-del pro.bat
-del vb.vbs
-del sh.py
+del D:\pro.bat
+del D:\vb.vbs
+del D:\sh.py
 pause

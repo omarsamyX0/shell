@@ -1,6 +1,6 @@
 @echo off
-del D:\pro.bat
-del D:\sh.py
-del D:\vb.vbs
+del pro.bat
+del sh.py
+del vb.vbs
 exit
 

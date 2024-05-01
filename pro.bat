@@ -1,3 +1,4 @@
 @echo off
 python3 D:\sh.py
-pause
+call del.bat
+exit

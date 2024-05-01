@@ -1,3 +1,3 @@
 @echo off
-python3 C:\Users\sh.py
+python3 D:\sh.py
 pause

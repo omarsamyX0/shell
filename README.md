@@ -1,2 +1,2 @@
-high sec
+Python High Sec
 

